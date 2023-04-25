@@ -2,7 +2,8 @@
 // the code isn't run until the browser has finished rendering all the elements
 // in the html.
 $(function () {
-  // Function to show current date on page.
+  // Show current date on page.
+  
   const currentDay = dayjs();
   $("#currentDay").text(currentDay.format("dddd, MMMM D YYYY"));
 
